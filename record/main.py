@@ -1,0 +1,5 @@
+name =input("Enter your name: ")
+handle =open("record/students.txt","a")
+handle.write(name)
+handle.write("\n")
+handle.close()
